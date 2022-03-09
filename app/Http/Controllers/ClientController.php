@@ -22,16 +22,12 @@ class ClientController extends Controller
 
         $client->save();
 
-        return redirect('/');
+        return redirect('/')->with('msg', 'Criado com sucesso!');
 
     }
 
     public function createClient() {
         return view('clients.create');
-    }
-
-    public function createUser() {
-        return view('users.user');
     }
 
     public function category() {

@@ -37,7 +37,7 @@
             Relatório
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Relatório</a></li>
+            <li><a class="dropdown-item" href="/users/relatorio">Relatório</a></li>
           </ul>
         </li>
       </ul>
@@ -46,6 +46,11 @@
 </nav>
 
 <main class="container">
+  <div>
+    @if (session('msg'))
+      <p class="msg alert alert-success w-100 m-auto text-center"> {{session('msg')}} </p>
+    @endif
+  </div>
   @yield('content')
 </main>
 

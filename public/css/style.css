@@ -19,3 +19,14 @@
     text-align: end;
     margin-top: 2%;
 }
+
+.dashboard-events-container .delete-btn {
+    color: #ffffff;
+    background-color: #DD4251;
+}
+
+.dashboard-events-container .delete-btn:hover {
+    color: #ffffff;
+    background-color: #4d1319;
+    transition: 0.5s;
+}

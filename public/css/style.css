@@ -1,0 +1,21 @@
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+.nav-item a {
+    color: #ffffff !important;
+}
+
+.dropdown-menu li a {
+    color: #000000 !important;
+}
+
+#container-apresentacao {
+    background-color: #c3c3ff;
+}
+
+.localizacao-mapa {
+    margin-right: 3rem;
+    text-align: end;
+    margin-top: 2%;
+}
